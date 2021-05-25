@@ -13,8 +13,8 @@ namespace TestLib1
     public partial class Form1 : Form
     {
         
-        int N = 3;
-        double[] C = { 2, 2, -1, 2};
+        //int N = 3;
+        //double[] C = { 2, 2, -1, 2};
 
         public Form1()
         {
@@ -31,7 +31,7 @@ namespace TestLib1
             userControl11.SetBaseRectangle(0, 0, 300, 300);
             userControl11.SetBackColor(Color.Red);
             userControl11.AddCell(10, 10, Color.Black, 1);
-            userControl11.AddGraph(N, C, Color.Black, 2);
+            userControl11.AddGraph(Color.Black, 2);
             
         }
 

@@ -37,32 +37,32 @@ namespace TestLib1
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(104, 461);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(56, 19);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "Graph";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(165, 461);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(56, 19);
             this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
+            this.button2.Text = "Delete";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // userControl11
             // 
-            this.userControl11.Location = new System.Drawing.Point(27, 26);
+            this.userControl11.Location = new System.Drawing.Point(11, 11);
             this.userControl11.Margin = new System.Windows.Forms.Padding(2);
             this.userControl11.MinimumSize = new System.Drawing.Size(45, 49);
             this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(404, 394);
+            this.userControl11.Size = new System.Drawing.Size(460, 405);
             this.userControl11.TabIndex = 3;
             // 
             // Form1
@@ -74,7 +74,7 @@ namespace TestLib1
             this.Controls.Add(this.userControl11);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
