@@ -28,7 +28,7 @@ namespace TestLib1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            userControl11.SetBaseRectangle(0, 0, 300, 300);
+            userControl11.SetBaseRectangle(0, 0, 20, 20);
             userControl11.SetBackColor(Color.Red);
             userControl11.AddCell(10, 10, Color.Black, 1);
             userControl11.AddGraph(Color.Black, 2);
@@ -40,6 +40,20 @@ namespace TestLib1
             userControl11.DelCell();
             userControl11.DeleteGraph();
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            userControl11.PointType = 2;
+            userControl11.PointSize = 4;
+            double[] PointX = { 1, 3, -2, 2 };
+            double[] PointY = { 1, 3, -2, 2 };
+            userControl11.AddPoint(4, PointX, PointY, Color.Black);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            userControl11.DeletePoint();
         }
     }
 }
