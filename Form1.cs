@@ -28,7 +28,7 @@ namespace TestLib1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            userControl11.SetBaseRectangle(0, 0, 20, 20);
+            //userControl11.SetBaseRectangle(0, 0, 20, 20);
             userControl11.SetBackColor(Color.Red);
             userControl11.AddCell(10, 10, Color.Black, 1);
             userControl11.AddGraph(Color.Black, 2);
